@@ -1,17 +1,17 @@
 import React from 'react';
+import About from '../About';
 
-function Nav(props) {
+function Nav({ setCurrentPage }) {
     return (
-        <header>
-            <h1>
-                Nicholas Perel
-            </h1>
-            <nav>
-                <a href="#about">About Me</a>
-                <a href="#work">My Work</a>
-                <a href="#contact-me">Contact Me</a>
-            </nav>
-        </header>
+        <nav>
+            <a href="#"onClick={() => {
+                setCurrentPage('About');
+            }}>About Me</a>
+            <a href="#"onClick={() => {
+                setCurrentPage('MyWork');
+            }}>My Work</a>
+            <a href="#contact-me">Contact Me</a>
+        </nav>
     );
 }
 
