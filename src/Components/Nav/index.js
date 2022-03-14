@@ -8,8 +8,8 @@ function Nav({ setCurrentPage }) {
                 setCurrentPage('About');
             }}>About Me</a>
             <a href="#"onClick={() => {
-                setCurrentPage('MyWork');
-            }}>My Work</a>
+                setCurrentPage('Portfolio');
+            }}>Portfolio</a>
             <a href="#contact-me">Contact Me</a>
         </nav>
     );

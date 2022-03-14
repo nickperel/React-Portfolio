@@ -3,19 +3,19 @@ import './App.css';
 import Nav from './Components/Nav';
 import About from './Components/About';
 import Footer from './Components/Footer';
-import MyWork from './Components/MyWork';
+import Portfolio from './Components/Portfolio';
 import Header from './Components/Header';
 import { useState } from 'react';
 
 function App() {
 
-const [currentPage, setCurrentPage] = useState('MyWork');  
+const [currentPage, setCurrentPage] = useState('About');  
 
   function renderPage() {
     if (currentPage === 'About') {
       return <About />
-    } else if (currentPage === 'MyWork') {
-      return <MyWork />
+    } else if (currentPage === 'Portfolio') {
+      return <Portfolio />
     }
   }
 

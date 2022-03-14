@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 
-function MyWork(props) {
+function Portfolio(props) {
 
     const workArr = [
         {
@@ -44,7 +44,7 @@ function MyWork(props) {
 
     return (
         <section id="work">
-            <h2 id="work-title">My Work</h2>
+            <h2 id="work-title">Portfolio</h2>
             <div class="column"></div>
             <div id="work-imgs-container" class="main-section-content">
                 {
@@ -58,4 +58,4 @@ function MyWork(props) {
     );
 }
 
-export default MyWork;
+export default Portfolio;
