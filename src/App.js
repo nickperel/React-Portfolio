@@ -5,8 +5,9 @@ import About from './Components/About';
 import Footer from './Components/Footer';
 import Portfolio from './Components/Portfolio';
 import Header from './Components/Header';
-import { useState } from 'react';
 import ContactForm from './Components/Contact';
+import Resume from './Components/Resume';
+import { useState } from 'react';
 
 function App() {
 
@@ -18,13 +19,15 @@ const [currentPage, setCurrentPage] = useState('About');
     } else if (currentPage === 'Portfolio') {
       return <Portfolio />
     } else if (currentPage === 'Contact') {
-      return <ContactForm></ContactForm>
-    }
+      return <ContactForm />
+    } else if (currentPage === 'Resume') {
+    return <Resume />
+  }
   }
 
   return (
     <>
-      <Header setCurrentPage={setCurrentPage}/>
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
       <main>
         <section id="header-img">
             <h2>

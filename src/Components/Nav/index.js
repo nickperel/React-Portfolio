@@ -1,18 +1,21 @@
 import React from 'react';
 import About from '../About';
 
-function Nav({ setCurrentPage }) {
+function Nav({ currentPage, setCurrentPage }) {
     return (
         <nav>
-            <a href="#"onClick={() => {
+            <a className={currentPage == 'About' ? 'active-page' : 'inactive-page'} href="#"onClick={() => {
                 setCurrentPage('About');
             }}>About Me</a>
-            <a href="#"onClick={() => {
+            <a className={currentPage == 'Portfolio' ? 'active-page' : 'inactive-page'} href="#"onClick={() => {
                 setCurrentPage('Portfolio');
             }}>Portfolio</a>
-            <a href="#"onClick={() => {
+            <a className={currentPage == 'Contact' ? 'active-page' : 'inactive-page'} href="#"onClick={() => {
                 setCurrentPage('Contact')
             }}>Contact</a>
+            <a className={currentPage == 'Resume' ? 'active-page' : 'inactive-page'} href="#"onClick={() => {
+                setCurrentPage('Resume')
+            }}>Resume</a>
         </nav>
     );
 }
