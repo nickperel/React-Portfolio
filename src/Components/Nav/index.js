@@ -10,7 +10,9 @@ function Nav({ setCurrentPage }) {
             <a href="#"onClick={() => {
                 setCurrentPage('Portfolio');
             }}>Portfolio</a>
-            <a href="#contact-me">Contact</a>
+            <a href="#"onClick={() => {
+                setCurrentPage('Contact')
+            }}>Contact</a>
         </nav>
     );
 }

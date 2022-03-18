@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import Portfolio from './Components/Portfolio';
 import Header from './Components/Header';
 import { useState } from 'react';
+import ContactForm from './Components/Contact';
 
 function App() {
 
@@ -16,6 +17,8 @@ const [currentPage, setCurrentPage] = useState('About');
       return <About />
     } else if (currentPage === 'Portfolio') {
       return <Portfolio />
+    } else if (currentPage === 'Contact') {
+      return <ContactForm></ContactForm>
     }
   }
 
