@@ -16,11 +16,11 @@ function Resume() {
                         <br></br>
                     </ul>
                     <ul>
-                        <li>MongoDB</li>
+                        <li>SQL</li>
                         <li>HTML</li>
                         <li>CSS/Bootstrap</li>
                         <li>GraphQl</li>
-                        <li>SQL</li>
+                        <li>Object Relational Mapping</li>
                         <li>Model-View-Controller</li>
                     </ul>
                     <ul>
