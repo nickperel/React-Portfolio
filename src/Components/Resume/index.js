@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
         <div className="container resume-container">
-            <button className="btn btn-info mt-5" href='https://drive.google.com/file/d/1Kax2iFRZAfOd4foBMLJWLxeS4dVDUrZB/view?usp=sharing'>Link to Resume Here</button>
+            <a href='https://drive.google.com/file/d/1Kax2iFRZAfOd4foBMLJWLxeS4dVDUrZB/view?usp=sharing' target="_blank" rel='noreferrer'><button className="btn btn-info mt-5">Link to Resume Here</button></a>
             <h1 className='d-flex justify-content-center profs mb-5'>Proficiencies</h1>
                 <div className='ul-container d-flex justify-content-between'>
                     <ul>
