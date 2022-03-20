@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from '../../assets/images/profile-pic.jpeg'
 
 function About(props) {
     return (
@@ -8,9 +9,12 @@ function About(props) {
                     We're Just Getting Started, Buckle Up!
                 </h2>
             </section>
-            
+
             <section id="about">
-                <h2 id="about-title">About Me</h2>
+                <div className='about-pic'>
+                    <h2 id="about-title">About Me</h2>
+                    <img src={profilePic} alt='profile-pic'className='profile-pic'/>
+                </div>
                 <div class="column">
 
                 </div>

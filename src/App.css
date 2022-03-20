@@ -320,6 +320,12 @@ main {
   font-size: 50px;
 }
 
+.profile-pic {
+  display: flex;
+  height: 250px;
+  border-radius: 15%;
+}
+
 @media screen and (max-width: 980px) {
   /* this will be applied to any screen smaller than 980px */
   .half-box {
