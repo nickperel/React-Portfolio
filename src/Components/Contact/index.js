@@ -52,11 +52,12 @@ function ContactForm() {
   return (
     <>
     <section id="header-img-partial"></section>
-        <section className="container">
-        <h1>Contact me</h1>
+        <section className="container contact-container mt-5">
+            <h1 className="contact-title d-flex justify-content-center">Contact me</h1>
+            <br></br>
         <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
-            <label className="form-label" htmlFor="name">
+            <div className="conctact-name">
+            <label className="form-label conctact-name" htmlFor="name">
                 Name:
             </label>
             <input
@@ -66,6 +67,7 @@ function ContactForm() {
                 onBlur={handleChange}
                 name="name"
             />
+            <br></br>
             </div>
             <div className="mb-3">
             <label className="form-label" htmlFor="email">
@@ -78,6 +80,7 @@ function ContactForm() {
                 name="email"
                 onBlur={handleChange}
             />
+            <br></br>
             </div>
             <div>
             <label className="form-label" htmlFor="message">
@@ -90,13 +93,14 @@ function ContactForm() {
                 onBlur={handleChange}
                 rows="5"
             />
+            <br></br>
             </div>
             {errorMessage && (
             <div>
                 <p className="error-text">{errorMessage}</p>
             </div>
             )}
-            <button type="submit" class="btn btn-primary mb-3">
+            <button type="submit" className="btn btn-info btn-lg mb-5">
             Submit
             </button>
         </form>

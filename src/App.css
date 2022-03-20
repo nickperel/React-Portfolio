@@ -310,6 +310,15 @@ main {
   font-size: 20px;
 }
 
+.contact-container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.contact-name {
+  font-size: 14px!;
+}
+
 @media screen and (max-width: 980px) {
   /* this will be applied to any screen smaller than 980px */
   .half-box {
