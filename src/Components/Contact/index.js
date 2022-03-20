@@ -53,11 +53,11 @@ function ContactForm() {
     <>
     <section id="header-img-partial"></section>
         <section className="container contact-container mt-5">
-            <h1 className="contact-title d-flex justify-content-center">Contact me</h1>
+            <h1 className="contact-title d-flex justify-content-center contact-me-title">Contact me</h1>
             <br></br>
         <form id="contact-form" onSubmit={handleSubmit}>
             <div className="conctact-name">
-            <label className="form-label conctact-name" htmlFor="name">
+            <label className="form-label" htmlFor="name">
                 Name:
             </label>
             <input
