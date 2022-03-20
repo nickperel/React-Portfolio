@@ -19,15 +19,16 @@ function Project({work}) {
                 </div>
             )
         } else {
-            return  <a class="click-container">
-            <div class={work.class} id={work.id}>
-                <div class="pic-label">
-                    <button className="btn btn-success mx-3" onClick={() => handleClick(work.url)}>{work.title}</button>
-                    <button className="btn btn-success" onClick={() => handleClick(work.github)}>GitHub Repo</button>
+            return  (
+            <div className="click-container">
+                <div class={work.class} id={work.id}>
+                    <div class="pic-label">
+                        <button className="btn btn-success mx-3" onClick={() => handleClick(work.url)}>{work.title}</button>
+                        <button className="btn btn-success" onClick={() => handleClick(work.github)}>GitHub Repo</button>
+                    </div>
                 </div>
             </div>
-        </a>
-        }
+            )}
     }
 
     return (

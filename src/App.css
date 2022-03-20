@@ -166,11 +166,12 @@ main {
   background-color: green;
   margin: 50px;
   font-size: 20px; */
+  margin-top: 50px;
 }
 
 .half-box {
   width: 435px;
-  height: 350px;
+  height: 228px;
   margin-top: 50px;
   background-size: cover;
   border: 8px solid rgba(0, 128, 0, 1);
@@ -207,19 +208,18 @@ main {
 
 #half-box1 {
   background-image: url("https://www.dropbox.com/s/ksflvf8jtgdtxj0/runbuddy.jpeg?raw=1");
-  
 }
 
 #half-box2 {
-  background-image: url("https://www.dropbox.com/s/c0idm9do5tqy1jd/js-password-generator.png?raw=1");
+  background-image: url("https://www.dropbox.com/s/8q2dqocnkkuqyp7/Weather-WIzard.png?raw=1");
 }
 
 #half-box3 {
-  background-image: url("https://www.dropbox.com/s/rh1kf3ts3qicd94/code-quiz.png?raw=1");
+  background-image: url("https://www.dropbox.com/s/fsh991ok7w8wi6l/Budget-Buddy.png?raw=1");
 }
 
 #half-box4 {
-  background-image: url("https://www.dropbox.com/s/gnh441qx13em0kv/wrk-day-scheduler.png?raw=1");
+  background-image: url("https://www.dropbox.com/s/4mueplby914bjg4/Tech-Talk-Final.png?raw=1");
 }
 
 .column {

@@ -21,28 +21,28 @@ function Portfolio(props) {
         {
             url: 'https://nickperel.github.io/run-buddy/',
             title: 'Run Buddy Website',
-            github: '',
+            github: 'https://github.com/nickperel/run-buddy',
             class: 'half-box',
             id: 'half-box1'
         },
         {
-            url: 'https://nickperel.github.io/JavaScript-Password-Generator/',
-            title: 'Password Generator Website',
-            github: '',
+            url: 'https://nickperel.github.io/Weather-Wizard/',
+            title: 'Weather Wizard Website',
+            github: 'https://github.com/nickperel/Weather-Wizard',
             class: 'half-box',
             id: 'half-box2'
         },
         {
-            url: 'https://nickperel.github.io/Web-API-Code-Quiz/',
-            title: 'Code Quiz Website',
-            github: '',
+            url: 'https://warm-woodland-79829.herokuapp.com/',
+            title: 'Budget Buddy Website',
+            github: 'https://github.com/nickperel/Budget-Buddy',
             class: 'half-box',
             id: 'half-box3'
         },
         {
-            url: 'https://nickperel.github.io/work-day-scheduler/',
-            title: 'Work Day Scheduler Website',
-            github: '',
+            url: 'https://glacial-castle-66844.herokuapp.com/',
+            title: 'Tech Talk Website',
+            github: 'https://github.com/nickperel/Tech-Talk',
             class: 'half-box',
             id: 'half-box4'
         }
