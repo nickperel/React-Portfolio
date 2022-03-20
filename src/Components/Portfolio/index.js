@@ -7,40 +7,46 @@ function Portfolio(props) {
         {
             url: 'https://ahoward21.github.io/pokemon-search/',
             title: 'Poké-Find Website',
+            github: 'https://github.com/Ahoward21/pokemon-search',
             class: 'big-box-1',
             id: null
         },
         {
             url: 'https://sneaker-sniper.herokuapp.com/',
             title: 'Sneaker Sniper Website',
+            github: 'https://github.com/nickperel/Sneaker-Sniper',
             class: 'big-box-2',
             id: null
         },
         {
             url: 'https://nickperel.github.io/run-buddy/',
             title: 'Run Buddy Website',
+            github: '',
             class: 'half-box',
             id: 'half-box1'
         },
         {
             url: 'https://nickperel.github.io/JavaScript-Password-Generator/',
             title: 'Password Generator Website',
+            github: '',
             class: 'half-box',
             id: 'half-box2'
         },
         {
             url: 'https://nickperel.github.io/Web-API-Code-Quiz/',
             title: 'Code Quiz Website',
+            github: '',
             class: 'half-box',
             id: 'half-box3'
         },
         {
             url: 'https://nickperel.github.io/work-day-scheduler/',
             title: 'Work Day Scheduler Website',
+            github: '',
             class: 'half-box',
             id: 'half-box4'
         }
-    ]
+    ];
 
     return (
         <>

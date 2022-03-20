@@ -152,7 +152,7 @@ main {
 
 .pic-label {
   height: 50px;
-  background-color: rgba(0, 128, 0, 1);
+  /* background-color: rgba(0, 128, 0, 1); */
   display: flex;
   align-content: space-around;
   justify-content: space-around;
@@ -161,8 +161,11 @@ main {
   text-decoration-color: lime;
 }
 
-.pic-label h3 {
-  color: orange;
+.pic-label button {
+  /* color: orange;
+  background-color: green;
+  margin: 50px;
+  font-size: 20px; */
 }
 
 .half-box {
