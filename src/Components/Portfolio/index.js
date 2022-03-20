@@ -43,18 +43,21 @@ function Portfolio(props) {
     ]
 
     return (
-        <section id="work">
-            <h2 id="work-title">Portfolio</h2>
-            <div class="column"></div>
-            <div id="work-imgs-container" class="main-section-content">
-                {
-                    workArr.map(work => {
-                        return <Project work={work}/>
-                    })
-                }
-            </div>
-                
-        </section>
+        <>
+        <section id="header-img-partial"></section>
+            <section id="work">
+                <h2 id="work-title">Portfolio</h2>
+                <div class="column"></div>
+                <div id="work-imgs-container" class="main-section-content">
+                    {
+                        workArr.map(work => {
+                            return <Project work={work}/>
+                        })
+                    }
+                </div>
+                    
+            </section>
+        </>
     );
 }
 

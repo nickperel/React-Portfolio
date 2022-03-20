@@ -29,11 +29,6 @@ const [currentPage, setCurrentPage] = useState('About');
     <>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
       <main>
-        <section id="header-img">
-            <h2>
-                We're Just Getting Started, Buckle Up!
-            </h2>
-        </section>
         {renderPage()}
       </main>
       <Footer />
