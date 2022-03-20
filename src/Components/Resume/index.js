@@ -6,19 +6,18 @@ function Resume() {
             <section id="header-img-partial"></section>
 
             <div className="container resume-container">
-                <a href='https://drive.google.com/file/d/1ED88bTbPw4cEkAZCxQNBT-WBHUDbFBdk/view?usp=sharing' target="_blank" rel='noreferrer'><button className="btn btn-info mt-5">Link to Resume Here</button></a>
+                <a href='https://drive.google.com/file/d/1ED88bTbPw4cEkAZCxQNBT-WBHUDbFBdk/view?usp=sharing' target="_blank" rel='noreferrer'><button className="btn btn-info btn-lg mt-5 mb-5">Link to Resume Here</button></a>
                 <h1 className='d-flex justify-content-center profs mb-5'>Proficiencies</h1>
                     <div className='ul-container d-flex justify-content-between'>
-                        <ul>
+                        <ul className='mt-3 mb-5'>
                             <li>MongoDB</li>
                             <li>Express.js</li>
                             <li>React</li>
                             <li>Node.js</li>
                             <li>JavaScript</li>
                             <li>State</li>
-                            <br></br>
                         </ul>
-                        <ul>
+                        <ul className='mt-3 mb-5'>
                             <li>SQL</li>
                             <li>HTML</li>
                             <li>CSS/Bootstrap</li>
@@ -26,7 +25,7 @@ function Resume() {
                             <li>Object Relational Mapping</li>
                             <li>Model-View-Controller</li>
                         </ul>
-                        <ul>
+                        <ul className='mt-3 mb-5'>
                             <li>Web APIs</li>
                             <li>Third Party APIs</li>
                             <li>Server-Side APIs</li>
