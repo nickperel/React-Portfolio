@@ -28,8 +28,8 @@
   * Just click through the links located in the header to browse the different sections of my portfolio!
 
   ### License Info
-  * [IBM License](https://opensource.org/licenses/IPL-1.0)
-  * The IPL is the open-source license IBM uses for some of its software. Supposed to facilitate commercial use of said software; is very clear on the specifics of liability. Also grants explicit patent rights.
+  * [MIT License](https://opensource.org/licenses/MIT)
+  * A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.
   
   ### Contributing
 
