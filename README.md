@@ -11,6 +11,14 @@
   * [Contributing](#contributing)
   * [License Info](#license-info)
 
+  ## Screenshot of Application
+
+  ![enter image description here](https://www.dropbox.com/s/v7s974zl4jr64pi/Perel-Professional-Portfolio.png?raw=1)
+
+  ## Link to Deployed Application
+
+  * https://nickperel.github.io/React-Portfolio/ 
+
   ### Installation
   
   * None
