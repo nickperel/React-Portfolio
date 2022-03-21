@@ -25,7 +25,7 @@ header nav {
   background-color: orange;
   justify-content: space-around;
   align-items: center;
-  font-family: fantasy;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 28px;
   margin-right: 55px;
 }
@@ -33,7 +33,7 @@ header nav {
 header h1 {
   margin: 30px;
   font-size: 55px;
-  font-family: fantasy;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 25px;
   display: flex;
   justify-content: center;
@@ -67,11 +67,13 @@ main {
 }
 
 #header-img h2 {
-  margin-right: 50px;
+  margin-right: 45px;
   color: orange;
   background-color: rgba(52, 116, 52, 0.60);
   font-weight: bold;
-  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 #about, #contact {
@@ -83,10 +85,10 @@ main {
 
 #about-title, #work-title, #contact-title {
   padding: 40px;
+  color: green;
   text-align: center;
-  width: 120px;
-  font-size: 50px;
-  font-family: fantasy;
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   justify-content: center;
 }
@@ -100,6 +102,10 @@ main {
   align-items: center;
 }
 
+.about-pic {
+
+}
+
 .main-section-content {
   width: 900px;
   display: flex;
@@ -108,7 +114,7 @@ main {
 #work {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: orange;
   padding: 40px;
@@ -320,24 +326,29 @@ main {
 }
 
 .contact-me-title {
-  font-size: 50px;
+  font-size: 55px;
   color: green;
 }
 
 .profile-pic {
   display: flex;
-  height: 250px;
+  height: 300px;
+  width: 200px;
   border-radius: 15%;
+  justify-content: center;
+}
+
+.about-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 980px) {
   /* this will be applied to any screen smaller than 980px */
   .half-box {
       width: 100%;
-  }
-
-  #about-title, #work-title, #contact-title {
-      font-size: 20px;
   }
 
   .click-container {

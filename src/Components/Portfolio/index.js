@@ -50,9 +50,9 @@ function Portfolio(props) {
 
     return (
         <>
-        <section id="header-img-partial"></section>
+        <section className='d-flex justify-content-center' id="header-img-partial"></section>
+                <h2 className='d-flex justify-content-center' id="work-title">Portfolio</h2>
             <section id="work">
-                <h2 id="work-title">Portfolio</h2>
                 <div class="column"></div>
                 <div id="work-imgs-container" class="main-section-content">
                     {
