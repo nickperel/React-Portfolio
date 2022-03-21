@@ -20,20 +20,7 @@ function About(props) {
                 </div>
                 <div class="main-section-content">
                     <p class="about-p">
-                        My name is Nicholas Perel and I am an aspiring software engineer. In January of 2021, I received my
-                        bachelor's degree from Rutgers University with a Major in Criminal Justice and a Double Minor in
-                        Psychology and Political Science.
-                        <br />
-                        <br />
-                        Following my graduation, I began to be trained in the art of Mindfulness Based Stress Reduction (MBSR),
-                        receiving a certification of completion for an 8 week program in MBSR, as well as the completion of a 5
-                        day silent retreat.
-                        <br />
-                        <br />
-                        Mindfulness and meditation are both great passions of mine, but after many hours of contemplation on
-                        what I really wanted to do with my life, I became aware of this Coding Bootcamp opportunity and decided
-                        to give it a try. Now, here I am today, fully buckled in for the ride it will take to be able to secure
-                        the title of Software Engineer for myself one day in the near future! :)
+                    Ambitious web developer eager to grow my knowledge, experience, and skill-sets as a software engineer on the path to reaching my full potential. Hard worker, creative thinker, strong team player, effective communicator, and open to guidance and constructive feedback for continued growth and added value to your team. Knowledge focusing primarily in JavaScript and React, and experience with both front-end and back-end development.
                     </p>
                 </div>
             </section>

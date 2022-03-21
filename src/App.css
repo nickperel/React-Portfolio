@@ -85,7 +85,6 @@ main {
 
 #about-title, #work-title, #contact-title {
   padding: 40px;
-  color: green;
   text-align: center;
   font-size: 55px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -97,13 +96,9 @@ main {
   color: #363636;
   line-height: 1.5;
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 32px;
   display: flex;
   align-items: center;
-}
-
-.about-pic {
-
 }
 
 .main-section-content {
@@ -305,7 +300,6 @@ main {
 }
 
 .profs {
-  color: green;
   font-size: 55px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -327,7 +321,6 @@ main {
 
 .contact-me-title {
   font-size: 55px;
-  color: green;
 }
 
 .profile-pic {
