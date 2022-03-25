@@ -21,13 +21,17 @@ header {
 
 header nav {
   display: flex;
-  width: 500px;
+  /* width: 500px; */
   background-color: orange;
   justify-content: space-around;
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 28px;
   margin-right: 55px;
+}
+
+header nav a {
+  margin: 20px;
 }
 
 header h1 {
@@ -356,26 +360,5 @@ main {
 
   .main-section-content {
       width: 600px;
-  }
-}
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-
-@media screen and (max-width: 768px) {
-  /* this will be applied on any screen between 768px and 576px */
-  .main-section-content {
-      width: 500px;
-  }
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-  /* this will be applied on any screen smaller than 575px */
-  .main-section-content {
-      width: 400px;
-      flex-direction: column;
-  }
-
-  header h1 {
-      font-size: 32px;
   }
 }

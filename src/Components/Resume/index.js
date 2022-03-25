@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 function Resume() {
     return (
@@ -9,7 +10,7 @@ function Resume() {
                 <a href='https://drive.google.com/file/d/1kLIrrdjC7OKzqFBj9gXFnUMTDf4y91Yf/view?usp=sharing' target="_blank" rel='noreferrer'><button className="btn btn-info btn-lg mt-5 mb-5">Link to Resume Here</button></a>
                 <h1 className='d-flex justify-content-center profs mb-5'>Proficiencies</h1>
                     <div className='ul-container d-flex justify-content-between'>
-                        <ul className='mt-3 mb-5'>
+                        <ul className='mt-3 mb-5 ml-5'>
                             <li>MongoDB</li>
                             <li>Express.js</li>
                             <li>React</li>
@@ -17,7 +18,7 @@ function Resume() {
                             <li>JavaScript</li>
                             <li>State</li>
                         </ul>
-                        <ul className='mt-3 mb-5'>
+                        <ul className='mt-3 mb-5 ml-5'>
                             <li>SQL</li>
                             <li>HTML</li>
                             <li>CSS/Bootstrap</li>
@@ -25,7 +26,7 @@ function Resume() {
                             <li>Object Relational Mapping</li>
                             <li>Model-View-Controller</li>
                         </ul>
-                        <ul className='mt-3 mb-5'>
+                        <ul className='mt-3 mb-5 ml-5'>
                             <li>Web APIs</li>
                             <li>Third Party APIs</li>
                             <li>Server-Side APIs</li>

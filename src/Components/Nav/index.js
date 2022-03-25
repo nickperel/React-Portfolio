@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../About';
+import './style.css';
 
 function Nav({ currentPage, setCurrentPage }) {
     return (
