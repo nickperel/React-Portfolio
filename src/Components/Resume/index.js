@@ -22,7 +22,7 @@ function Resume() {
                             <li>SQL</li>
                             <li>HTML</li>
                             <li>CSS/Bootstrap</li>
-                            <li>GraphQl</li>
+                            <li>GraphQL</li>
                             <li>Object Relational Mapping</li>
                             <li>Model-View-Controller</li>
                         </ul>
