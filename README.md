@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   
-  * This is a portfolio page that was custom built using React in order to showcase all of my best work. As a web devloper who is aspiring to find work as a software engineer, I appreciate you taking the time to check out my portfolio. Please do not hesitate to reach out with any inquiries or if anything needs further clarification.
+  * This is a portfolio page that was custom built using React in order to showcase all of my best work. As a web developer who is aspiring to find work as a software engineer, I appreciate you taking the time to check out my portfolio. Please do not hesitate to reach out with any inquiries or if anything needs further clarification.
 
   ## Table of Contents
 
