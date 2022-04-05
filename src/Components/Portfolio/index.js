@@ -6,16 +6,16 @@ function Portfolio(props) {
 
     const workArr = [
         {
-            url: 'https://ahoward21.github.io/pokemon-search/',
-            title: 'Poké-Find Website',
-            github: 'https://github.com/Ahoward21/pokemon-search',
+            url: 'https://sneaker-sniper.herokuapp.com/',
+            title: 'Sneaker Sniper Website',
+            github: 'https://github.com/nickperel/Sneaker-Sniper',
             class: 'big-box-1',
             id: null
         },
         {
-            url: 'https://sneaker-sniper.herokuapp.com/',
-            title: 'Sneaker Sniper Website',
-            github: 'https://github.com/nickperel/Sneaker-Sniper',
+            url: 'https://ahoward21.github.io/pokemon-search/',
+            title: 'Poké-Find Website',
+            github: 'https://github.com/Ahoward21/pokemon-search',
             class: 'big-box-2',
             id: null
         },
