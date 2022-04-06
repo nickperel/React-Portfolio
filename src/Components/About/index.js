@@ -7,7 +7,7 @@ function About(props) {
         <>
             <section id="header-img">
                 <h2>
-                    We're Just Getting Started, Buckle Up!
+                    Let's See What We Can Accomplish Together!
                 </h2>
             </section>
 
