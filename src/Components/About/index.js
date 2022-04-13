@@ -21,7 +21,7 @@ function About(props) {
                 </div>
                 <div class="main-section-content">
                     <p class="about-p">
-                    Ambitious web developer eager to grow my knowledge, experience, and skill-sets as a software engineer on the path to reaching my full potential. Hard worker, creative thinker, strong team player, effective communicator, and open to guidance and constructive feedback for continued growth and added value to your team. Knowledge focusing primarily in JavaScript and React, and experience with both front-end and back-end development.
+                    Performance-driven, conscientious, hard-working recent graduate seeking entry level software engineer, web developer, or software tester roles. Extensive knowledge of JavaScript and React, and experience with both front-end and back-end development. If I'm not coding, you can find me playing basketball, gaming, or playing with my cat who constantly wants to lay on my keyboard.
                     </p>
                 </div>
             </section>

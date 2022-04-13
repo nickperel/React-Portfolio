@@ -5,9 +5,9 @@ import './style.css';
 function Header({ currentPage, setCurrentPage }) {
     return (
         <header>
-            <h1>
-                Nicholas Perel
-            </h1>
+            <a id='title-name' className={currentPage == 'About' ? 'active-page' : 'inactive-page'} title-name href="#"onClick={() => {
+                setCurrentPage('About');
+            }}>Nicholas Perel</a>
             <Nav currentPage={currentPage} setCurrentPage={setCurrentPage}/>
         </header>
     );
