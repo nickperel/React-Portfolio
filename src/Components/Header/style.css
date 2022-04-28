@@ -26,6 +26,24 @@
     }
 }
 
+@media screen and (max-width: 540px) {
+    #header-img h2 {
+        font-size: 29px;
+        display: flex;
+        justify-content: center;
+        padding-left: 96px;
+    }
+
+    #header-img {
+        height: 300px
+    }
+
+    .about-p {
+        margin-top: 35px;
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 444px) {
     
     #title-name {
@@ -53,12 +71,20 @@
         margin-top: 35px;
         font-size: 19px;
     }
+
+    #about-title {
+        font-size: 54px;
+    }
 }
 
 
 @media screen and (max-width: 383px) {
     #title-name {
     font-size: 35px;
+    }
+
+    #about-title {
+        font-size: 47px;
     }
 
     header nav a {
@@ -69,6 +95,10 @@
 @media screen and (max-width: 322px) {
     #title-name {
     font-size: 25px;
+    }
+
+    #about-title {
+        font-size: 45px;
     }
 
     header nav a {
