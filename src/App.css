@@ -14,7 +14,7 @@ p {
 }
 
 header {
-  background-color: rgb(108, 10, 236);
+  background-color: darkslategrey;
   display: flex;
   justify-content: space-between;
 }
@@ -22,7 +22,7 @@ header {
 header nav {
   display: flex;
   /* width: 500px; */
-  background-color: rgb(108, 10, 236);
+  background-color: darkslategrey;
   justify-content: space-around;
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -35,7 +35,7 @@ header nav a {
 }
 
 nav a:hover {
-  color: gold;
+  color: white;
   text-decoration: none;
 }
 
@@ -51,17 +51,17 @@ header h1:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(211, 203, 192);
   text-decoration: none;
 }
 
 #title-name:hover {
-  color: gold;
+  color: white;
   text-decoration: none;
 }
 
 main {
-  background-color: rgb(108, 10, 236);
+  background-color: darkslategrey;
 }
 
 #header-img {
@@ -88,8 +88,8 @@ main {
 
 #header-img h2 {
   margin-right: 45px;
-  color: gold;
-  background-color: rgba(20, 3, 73, 0.621);
+  color: rgb(236, 235, 235);
+  background-color: rgba(47, 79, 79, 0.733);
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 50px;
@@ -110,7 +110,7 @@ main {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   justify-content: center;
-  color: rgba(0, 255, 0, 0.814)
+  color: rgb(211, 203, 192)
 }
 
 .about-p {
@@ -132,7 +132,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(108, 10, 236);
+  background-color: darkslategray;
   padding: 40px;
 }
 
@@ -158,7 +158,7 @@ main {
   background-size: cover;
   display: flex;
   align-items: flex-end;
-  border: 8px solid gold;
+  border: 8px solid rgb(211, 203, 192);
   margin-bottom: 50px;
 }
 
@@ -169,12 +169,12 @@ main {
   background-size: cover;
   display: flex;
   align-items: flex-end;
-  border: 8px solid gold;
+  border: 8px solid rgb(211, 203, 192);
 }
 
 .pic-label {
   height: 50px;
-  /* background-color: gold; */
+  /* background-color: darkslateblue; */
   display: flex;
   align-content: space-around;
   justify-content: space-around;
@@ -196,7 +196,7 @@ main {
   height: 228px;
   margin-top: 50px;
   background-size: cover;
-  border: 8px solid gold;
+  border: 8px solid rgb(211, 203, 192);
   display: flex;
   align-items: flex-end;
 }
@@ -246,13 +246,13 @@ main {
 
 .column {
   height: 75%;
-  background-color: rgba(0, 255, 0, 0.579);
+  background-color: rgb(27, 44, 44);
   width: 8px;
 }
 
 .footer-basic {
   padding:40px 0;
-  background-color: rgba(53, 7, 169, 0.926);
+  background-color: rgb(27, 44, 44);
   color:#000000;
 }
 
@@ -278,7 +278,7 @@ main {
 
 .footer-basic ul a:hover {
   opacity:1;
-  color: gold;
+  color: rgb(112, 96, 215);
 }
 
 .footer-basic .social {
@@ -303,33 +303,33 @@ main {
 
 .footer-basic .social > a:hover {
   opacity:0.9;
-  color: lime;
+  color: rgb(112, 96, 215);
 }
 
 .footer-basic .copyright {
   margin-top:15px;
   text-align:center;
   font-size:13px;
-  color:lime;
+  color:rgb(211, 203, 192);
   margin-bottom:0;
 }
 
 .active-page {
-  color: lime;
+  color: whitesmoke;
 }
 
 .inactive-page {
-  color: white;
+  color: rgb(211, 203, 192);
 }
 
 .profs {
   font-size: 55px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgba(0, 255, 0, 0.814);
+  color: rgb(211, 203, 192);
 }
 
 .resume-container {
-  background-color: rgb(108, 10, 236);
+  background-color: darkslategray;
   color: white;
 }
 
