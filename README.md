@@ -13,7 +13,7 @@
 
   ## Screenshot of Application
 
-  ![enter image description here](https://www.dropbox.com/s/9yny9vbrzuqk1e0/Perel-Portfolio.png?raw=1)
+  ![enter image description here](https://www.dropbox.com/s/ubbu308s1js5fkc/PerelPortfolio.png?raw=1)
 
   ## Link to Deployed Application
 
