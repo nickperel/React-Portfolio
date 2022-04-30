@@ -7,7 +7,7 @@ function Resume() {
             <section id="header-img-partial"></section>
 
             <div className="container resume-container">
-                <a href='https://drive.google.com/file/d/1W4WCj3hJ33pa2ZkKy6toYYRdB2Ta-bLo/view?usp=sharing' target="_blank" rel='noreferrer'><button className="btn btn-success btn-lg mt-5 mb-5">Link to Resume Here</button></a>
+                <a href='https://drive.google.com/file/d/1vnVV2phpzZPYX2eYlDaQWElZm1WjU_9f/view?usp=sharing' target="_blank" rel='noreferrer'><button className="btn btn-success btn-lg mt-5 mb-5">Link to Resume Here</button></a>
                 <h1 className='d-flex justify-content-center profs mb-5'>Proficiencies</h1>
                     <div className='ul-container d-flex justify-content-between'>
                         <ul className='mt-3 mb-5 ml-5'>
