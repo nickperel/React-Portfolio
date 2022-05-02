@@ -139,9 +139,6 @@
 }
 
 @media screen and (max-width: 322px) {
-    #title-name {
-    font-size: 25px;
-    }
 
     #about-title {
         font-size: 45px;
@@ -163,5 +160,11 @@
 @media screen and (max-width: 299px) {
     header nav a {
         font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 282px) {
+    #title-name {
+        font-size: 30px;
     }
 }
